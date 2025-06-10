@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="number"] {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #6a5acd;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  outline: none;
+  border-color: #6a5acd;
+}
+
+button {
+  background-color: #6a5acd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5b4ecb;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#result.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade-in animation on load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  input, select, button {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

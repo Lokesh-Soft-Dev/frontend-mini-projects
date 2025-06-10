@@ -1,0 +1,172 @@
+:root {
+  --bg-color: #0f0f1b;
+  --primary: #00ffff;
+  --text-color: #fff;
+  --input-bg: #1c1c2e;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+body.light-mode {
+  --bg-color: #f9f9fb;
+  --primary: #4a90e2;
+  --text-color: #1c1c1c;
+  --input-bg: #ffffff;
+}
+
+body.light-mode {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.light-mode .calculator {
+  background: #ffffff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+}
+
+body.light-mode input[type="text"] {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 2px solid var(--primary);
+}
+
+body.light-mode #output {
+  color: var(--primary);
+  border-left: 5px solid var(--primary);
+}
+
+body.light-mode .history-wrapper {
+  background: #f1f3f7;
+}
+
+body.light-mode #history div {
+  border-bottom: 1px solid #ccc;
+}
+
+body.light-mode .controls button {
+  color: var(--primary);
+  border-color: var(--primary);
+  background-color: #f0f4ff;
+}
+
+body.light-mode .controls button:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.calculator {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px var(--primary);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary);
+}
+
+input[type="text"] {
+  width: 93%;
+  padding: 15px;
+  font-size: 1.2rem;
+  background: var(--input-bg);
+  color: var(--text-color);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#output {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: var(--primary);
+  border-left: 5px solid var(--primary);
+  margin-bottom: 20px;
+}
+
+.history-wrapper {
+  background: #1a1a2e;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#history div {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.controls button {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: var(--primary);
+  color: #000;
+}
+
+body.light-mode {
+  --bg-color: #f1f1f1;
+  --primary: #007bff;
+  --text-color: #111;
+  --input-bg: #fff;
+}
+
+body.light-mode .calculator {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode #output {
+  border-left: 5px solid var(--primary);
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.history-item small {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+
+#history.hidden {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .controls {
+    flex-direction: column;
+  }
+}

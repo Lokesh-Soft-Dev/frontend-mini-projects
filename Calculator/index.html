@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Futuristic Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h1>🔮 Futuristic Calculator</h1>
+
+    <div class="controls">
+      <button onclick="clearInput()">Clear Input</button>
+      <button onclick="clearHistory()">Clear History</button>
+      <button id="toggle-theme">🌗 Theme</button>
+    </div>
+
+    <input type="text" id="input" placeholder="Enter expression..." autofocus onkeydown="handleKey(event)" />
+    <div id="output">= 0</div>
+
+    <div class="history-wrapper">
+      <h2>History</h2>
+      <div id="history"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

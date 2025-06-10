@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="auth-container">
+    <div class="form-box">
+      <!-- Login Form -->
+      <form class="form login-form active" id="loginForm">
+        <h2>Sign In</h2>
+        <div class="form-group">
+          <label for="login-username">Username</label>
+          <input type="text" id="login-username" placeholder="Enter your username" required />
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit">Login</button>
+        <p class="switch-link">Don't have an account? <a href="#" id="showRegister">Register</a></p>
+      </form>
+
+      <!-- Register Form -->
+      <form class="form register-form" id="registerForm">
+        <h2>Create Account</h2>
+        <div class="form-group">
+          <label for="register-name">Full Name</label>
+          <input type="text" id="register-name" placeholder="Enter your full name" required />
+        </div>
+        <div class="form-group">
+          <label for="register-email">Email</label>
+          <input type="email" id="register-email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password</label>
+          <input type="password" id="register-password" placeholder="Create a password" required />
+        </div>
+        <button type="submit">Register</button>
+        <p class="switch-link">Already have an account? <a href="#" id="showLogin">Login</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById('loginForm');
+    const registerForm = document.getElementById('registerForm');
+    const showRegister = document.getElementById('showRegister');
+    const showLogin = document.getElementById('showLogin');
+
+    showRegister.onclick = (e) => {
+      e.preventDefault();
+      loginForm.classList.remove('active');
+      registerForm.classList.add('active');
+    };
+
+    showLogin.onclick = (e) => {
+      e.preventDefault();
+      registerForm.classList.remove('active');
+      loginForm.classList.add('active');
+    };
+  </script>
+</body>
+</html>
