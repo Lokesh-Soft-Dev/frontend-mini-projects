@@ -28,7 +28,7 @@
 
 ### https://lokesh-soft-dev.github.io/frontend-mini-projects/Swipe_Effect/
 
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Color-Palette-Generator/
+### https://lokesh-soft-dev.github.io/frontend-mini-projects/color-palette-generator/
 
 ---
 ## 📋 Projects Table
