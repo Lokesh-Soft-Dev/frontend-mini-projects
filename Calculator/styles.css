@@ -25,47 +25,6 @@ body.light-mode {
   --input-bg: #ffffff;
 }
 
-body.light-mode {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-body.light-mode .calculator {
-  background: #ffffff;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-  border: 1px solid #ddd;
-}
-
-body.light-mode input[type="text"] {
-  background-color: var(--input-bg);
-  color: var(--text-color);
-  border: 2px solid var(--primary);
-}
-
-body.light-mode #output {
-  color: var(--primary);
-  border-left: 5px solid var(--primary);
-}
-
-body.light-mode .history-wrapper {
-  background: #f1f3f7;
-}
-
-body.light-mode #history div {
-  border-bottom: 1px solid #ccc;
-}
-
-body.light-mode .controls button {
-  color: var(--primary);
-  border-color: var(--primary);
-  background-color: #f0f4ff;
-}
-
-body.light-mode .controls button:hover {
-  background-color: var(--primary);
-  color: #fff;
-}
-
 .calculator {
   background: rgba(0, 0, 0, 0.4);
   padding: 2rem;
@@ -135,19 +94,40 @@ input[type="text"] {
   color: #000;
 }
 
-body.light-mode {
-  --bg-color: #f1f1f1;
-  --primary: #007bff;
-  --text-color: #111;
-  --input-bg: #fff;
+body.light-mode .calculator {
+  background: #ffffff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
 }
 
-body.light-mode .calculator {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+body.light-mode input[type="text"],
+body.light-mode #output {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 2px solid var(--primary);
 }
 
 body.light-mode #output {
   border-left: 5px solid var(--primary);
+}
+
+body.light-mode .history-wrapper {
+  background: #f1f3f7;
+}
+
+body.light-mode #history div {
+  border-bottom: 1px solid #ccc;
+}
+
+body.light-mode .controls button {
+  color: var(--primary);
+  border-color: var(--primary);
+  background-color: #f0f4ff;
+}
+
+body.light-mode .controls button:hover {
+  background-color: var(--primary);
+  color: #fff;
 }
 
 .history-item {
