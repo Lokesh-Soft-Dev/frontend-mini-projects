@@ -34,9 +34,10 @@
 ---
 #### https://lokesh-soft-dev.github.io/frontend-mini-projects/Swipe_Effect/
 ---
-#### https://lokesh-soft-dev.github.io/frontend-mini-projects/color-palette-generator/
----
+
 ## 📋 Projects Table
+
+## 🚀 Project Portfolio
 
 | #  | Project Name          | Description                          | Key Features                          |
 |----|-----------------------|--------------------------------------|---------------------------------------|
@@ -52,6 +53,9 @@
 | 10 | 3D Hover Card        | Interactive flip card                | CSS 3D transforms                    |
 | 11 | Image Slider         | Auto-rotating gallery                | Navigation controls                  |
 | 12 | Login/Register Forms | Auth UI                              | Toggle forms, validation             |
+| 13 | AlertFlow            | Queued modal notification system     | Message queue, multiple alert types  |
+| 14 | Modern Landing Page  | Product showcase landing page        | Parallax effect, responsive sections |
+| 15 | Interactive Swiper   | Customizable image/content slider    | Pagination, smooth transitions       |
 
 ---
 
