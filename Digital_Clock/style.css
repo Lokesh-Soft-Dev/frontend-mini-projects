@@ -1,0 +1,89 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Digital Clock Styling */
+.clock {
+    font-size: 3em;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
+    margin-bottom: 20px;
+}
+
+/* Typing Text Effect */
+.typing-text h2 {
+    font-size: 2em;
+    color: #ff00ff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border-right: 3px solid #ff00ff;
+    display: inline-block;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing Animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blink Animation */
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .clock {
+        font-size: 2.5em;
+    }
+
+    .typing-text h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .clock {
+        font-size: 2em;
+    }
+
+    .typing-text h2 {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,80 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    color: #ff00ff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+.countdown {
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+}
+
+.coming-soon-text {
+    font-size: 1.5em;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.neon-text {
+    color: #ff00ff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 20px rgba(255, 0, 255, 0.6);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .countdown {
+        font-size: 1.5em;
+    }
+
+    .coming-soon-text {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .countdown {
+        font-size: 1.2em;
+    }
+
+    .coming-soon-text {
+        font-size: 1em;
+    }
+}
