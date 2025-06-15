@@ -4,7 +4,7 @@
 ---
 ## Live Demo Links
 
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Birthday-List-UI/
+# https://lokesh-soft-dev.github.io/frontend-mini-projects/Birthday-List-UI/
 ---
 ### https://lokesh-soft-dev.github.io/frontend-mini-projects/Calculator/
 ---
