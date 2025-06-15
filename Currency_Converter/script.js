@@ -8,7 +8,7 @@ const result = document.getElementById('result');
 const exchangeRatesToUSD = {
   USD: 1,
   INR: 0.012, // 1 INR ≈ 0.012 USD
-  EUR: 1.08   // 1 EUR ≈ 1.08 USD
+  EUR: 1.16   // 1 EUR ≈ 1.08 USD
 };
 
 convertBtn.addEventListener('click', () => {
