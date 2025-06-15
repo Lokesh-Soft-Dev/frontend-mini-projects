@@ -1,345 +1,49 @@
 /* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow-x: hidden;
-  color: #333;
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;overflow-x:hidden;color:#333}
 
 /* Hero Section */
-.hero {
-  height: 100vh;
-  background-image: url('https://external-preview.redd.it/iphone-15-pro-models-again-rumored-to-see-100-price-increase-v0-bmkZIPOlgKpwB6ScGNKSjvparBKuGEK541ONVfvoTIo.jpg?auto=webp&s=b9791d15d8d6d3f12b2cbdc0968e6d6a7a61b95d');
-  background-attachment: fixed;
-  /* Parallax effect */
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 0 20px;
-}
-
-.hero-content h1 {
-  font-size: 5rem;
-  margin-bottom: 20px;
-}
-
-.neon-text {
-  font-size: 3rem;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow:
-    0 0 5px #ff00ff,
-    0 0 10px #ff00ff,
-    0 0 20px #ff00ff,
-    0 0 40px #ff00ff,
-    0 0 80px #ff00ff;
-}
-
-.hero-content p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-  font-weight: 600;
-  color: #000;
-}
-
-.cta-button {
-  padding: 15px 30px;
-  background-color: #0077ff;
-  color: white;
-  text-decoration: none;
-  border-radius: 50px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #0057cc;
-}
+.hero{height:100vh;background-image:url('https://external-preview.redd.it/iphone-15-pro-models-again-rumored-to-see-100-price-increase-v0-bmkZIPOlgKpwB6ScGNKSjvparBKuGEK541ONVfvoTIo.jpg?auto=webp&s=b9791d15d8d6d3f12b2cbdc0968e6d6a7a61b95d');background-attachment:fixed;background-size:cover;display:flex;justify-content:center;align-items:center;color:#fff;text-align:center;padding:0 20px}
+.hero-content h1{font-size:5rem;margin-bottom:20px}
+.neon-text{font-size:3rem;color:#fff;text-align:center;text-transform:uppercase;letter-spacing:2px;text-shadow:0 0 5px #ff00ff,0 0 10px #ff00ff,0 0 20px #ff00ff,0 0 40px #ff00ff,0 0 80px #ff00ff}
+.hero-content p{font-size:1.5rem;margin-bottom:30px;font-weight:600;color:#000}
+.cta-button{padding:15px 30px;background-color:#0077ff;color:#fff;text-decoration:none;border-radius:50px;font-weight:bold;transition:background-color .3s ease}
+.cta-button:hover{background-color:#0057cc}
 
 /* Features Section */
-.features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 80px;
-  background-color: #000;
-  text-align: center;
-}
-
-.feature {
-  background: #111;
-  padding: 30px 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.feature h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  color: #00d48d;
-}
-
-.feature p {
-  color: #ccc;
-  font-size: 1rem;
-}
-
-.feature:hover {
-  transform: translateY(-10px);
-}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:80px;background:#000;text-align:center}
+.feature{background:#111;padding:30px 20px;border-radius:10px;transition:transform .3s ease}
+.feature h2{font-size:1.8rem;margin-bottom:10px;color:#00d48d}
+.feature p{color:#ccc;font-size:1rem}
+.feature:hover{transform:translateY(-10px)}
 
 /* Testimonials Section */
-.testimonials {
-  /* background-color: #ffffff; */
-  background-image: url(https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.landing-big_2x.jpg);
-  padding: 100px 50px;
-  text-align: center;
-  margin-top: -11px;
-}
-
-.testimonials h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: white;
-  font-weight: 900;
-}
-
-.testimonial {
-  margin-bottom: 20px;
-}
-
-.testimonial p {
-  font-size: 1.2rem;
-  font-style: italic;
-  color: whitesmoke;
-  font-weight: 600;
-}
-
-.testimonial h3 {
-  font-size: 1.1rem;
-  margin-top: 10px;
-  color: whitesmoke;
-  margin-left: 50em;
-}
-
-.Heart{
-    text-shadow:
-    0 0 5px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 40px #0ff,
-    0 0 80px #0ff;
-}
+.testimonials{background-image:url(https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.landing-big_2x.jpg);padding:100px 50px;text-align:center;margin-top:-11px}
+.testimonials h2{font-size:2.5rem;margin-bottom:30px;color:#fff;font-weight:900}
+.testimonial{margin-bottom:20px}
+.testimonial p{font-size:1.2rem;font-style:italic;color:whitesmoke;font-weight:600}
+.testimonial h3{font-size:1.1rem;margin-top:10px;color:whitesmoke;margin-left:50em}
+.Heart{text-shadow:0 0 5px #0ff,0 0 10px #0ff,0 0 20px #0ff,0 0 40px #0ff,0 0 80px #0ff}
 
 /* CTA Section */
-.cta-section {
-  /* background-color: whitesmoke; */
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  text-align: center;
-  padding: 60px 20px;
-  color: black;
-}
-
-.cta-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  padding: 20px 40px;
-  font-size: 1.5rem;
-  background-color: #00d48d;
-  border-radius: 50px;
-  text-decoration: none;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #00a369;
-}
+.cta-section{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);text-align:center;padding:60px 20px;color:#000}
+.cta-section h2{font-size:2.5rem;margin-bottom:30px}
+.cta-section .cta-button{padding:20px 40px;font-size:1.5rem;background-color:#00d48d;border-radius:50px;text-decoration:none;color:#fff;transition:background-color .3s ease}
+.cta-section .cta-button:hover{background-color:#00a369}
 
 /* Footer Section */
-.footer {
-  background-color: #1a1a1a;
-  color: #ccc;
-  padding: 40px 20px;
-  text-align: left;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 40px;
-  font-size: 0.95rem;
-}
-
-.footer-section {
-  display: flex;
-  margin-left: 6em;
-  flex-direction: column;
-}
-
-.footer-section h3 {
-  color: white;
-  font-weight: 600;
-  font-size: 1.1rem;
-  margin-bottom: 15px;
-}
-
-.footer-section a {
-  color: #aaa;
-  text-decoration: none;
-  margin-bottom: 8px;
-  transition: color 0.3s;
-}
-
-.footer-section a:hover {
-  color: #00d48d;
-}
-
-.footer-socials {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
-
-.footer-socials a {
-  color: whitesmoke;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
-
-.footer-socials a:hover {
-  color: #00d48d;
-}
-
-.footer-bottom {
-  grid-column: 1 / -1;
-  text-align: center;
-  border-top: 1px solid #333;
-  padding-top: 20px;
-  font-size: 0.85rem;
-  color: white;
-    text-shadow:
-    0 0 5px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 40px #0ff,
-    0 0 80px #0ff;
-}
+.footer{background:#1a1a1a;color:#ccc;padding:40px 20px;text-align:left;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px;font-size:.95rem}
+.footer-section{display:flex;margin-left:6em;flex-direction:column}
+.footer-section h3{color:#fff;font-weight:600;font-size:1.1rem;margin-bottom:15px}
+.footer-section a{color:#aaa;text-decoration:none;margin-bottom:8px;transition:color .3s}
+.footer-section a:hover{color:#00d48d}
+.footer-socials{display:flex;gap:15px;margin-top:10px}
+.footer-socials a{color:whitesmoke;font-size:1.2rem;transition:color .3s ease}
+.footer-socials a:hover{color:#00d48d}
+.footer-bottom{grid-column:1/-1;text-align:center;border-top:1px solid #333;padding-top:20px;font-size:.85rem;color:#fff;text-shadow:0 0 5px #0ff,0 0 10px #0ff,0 0 20px #0ff,0 0 40px #0ff,0 0 80px #0ff}
 
 /* Responsiveness */
-@media (max-width: 1200px) {
-  .hero-content h1 {
-    font-size: 4rem;
-  }
-
-  .hero-content p {
-    font-size: 1.3rem;
-  }
-
-  .cta-button {
-    padding: 14px 28px;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .hero-content h1 {
-    font-size: 3.5rem;
-  }
-
-  .hero-content p {
-    font-size: 1.2rem;
-  }
-
-  .testimonial h3 {
-    margin-left: 0;
-  }
-
-  .footer-section {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2.8rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .cta-button {
-    font-size: 1rem;
-    padding: 12px 24px;
-  }
-
-  .testimonials {
-    padding: 60px 20px;
-  }
-
-  .features {
-    grid-template-columns: 1fr;
-  }
-
-  .testimonial p {
-    font-size: 1rem;
-  }
-
-  .testimonial h3 {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .footer {
-    text-align: center;
-  }
-
-  .footer-socials {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-    padding: 40px 15px;
-    text-align: center;
-  }
-
-  .hero-content h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero-content p {
-    font-size: 0.95rem;
-  }
-
-  .cta-button {
-    padding: 10px 20px;
-    font-size: 0.95rem;
-  }
-
-  .testimonials h2,
-  .cta-section h2 {
-    font-size: 1.8rem;
-  }
-
-  .testimonial p {
-    font-size: 0.95rem;
-  }
-
-  .testimonial h3 {
-    font-size: 0.9rem;
-  }
-}
-
+@media(max-width:1200px){.hero-content h1{font-size:4rem}.hero-content p{font-size:1.3rem}.cta-button{padding:14px 28px;font-size:1.2rem}}
+@media(max-width:992px){.hero-content h1{font-size:3.5rem}.hero-content p{font-size:1.2rem}.testimonial h3{margin-left:0}.footer-section{margin-left:0}}
+@media(max-width:768px){.hero-content h1{font-size:2.8rem}.hero-content p{font-size:1rem}.cta-button{font-size:1rem;padding:12px 24px}.testimonials{padding:60px 20px}.features{grid-template-columns:1fr}.testimonial p{font-size:1rem}.testimonial h3{font-size:1rem;text-align:center}.footer{text-align:center}.footer-socials{justify-content:center}}
+@media(max-width:480px){.hero{padding:40px 15px;text-align:center}.hero-content h1{font-size:2.2rem}.hero-content p{font-size:.95rem}.cta-button{padding:10px 20px;font-size:.95rem}.testimonials h2,.cta-section h2{font-size:1.8rem}.testimonial p{font-size:.95rem}.testimonial h3{font-size:.9rem}}
