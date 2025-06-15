@@ -6,35 +6,35 @@
 
 #### https://lokesh-soft-dev.github.io/frontend-mini-projects/Birthday-List-UI/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Calculator/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Calculator/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Calender-Event-Planner/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Calender-Event-Planner/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Color-Palette-Generator/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Color-Palette-Generator/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Coming_Soon_Page/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Coming_Soon_Page/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Currency_Converter/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Currency_Converter/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Custom_Alert_Flow/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Custom_Alert_Flow/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Digital_Clock/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Digital_Clock/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Event_or_Conference_UI/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Event_or_Conference_UI/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Freelancing_Page/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Freelancing_Page/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Futuristic_3D_Hover_Card/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Futuristic_3D_Hover_Card/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Image_Slider/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Image_Slider/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Login_Page_with_JS/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Login_Page_with_JS/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Modern_Apple_iphone15_Landing_Page/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Modern_Apple_iphone15_Landing_Page/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/Swipe_Effect/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/Swipe_Effect/
 ---
-### https://lokesh-soft-dev.github.io/frontend-mini-projects/color-palette-generator/
+#### https://lokesh-soft-dev.github.io/frontend-mini-projects/color-palette-generator/
 ---
 ## 📋 Projects Table
 
